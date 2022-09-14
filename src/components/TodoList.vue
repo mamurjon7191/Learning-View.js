@@ -5,6 +5,7 @@
         v-for="(todo, index) of todos"
         :key="index"
         v-bind:todo="todo"
+        v-bind:index="index"
         v-on:remove-todo="removeTodo"
       />
     </ul>

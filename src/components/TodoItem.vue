@@ -2,7 +2,7 @@
   <li class="listItem">
     <span v-bind:class="{ done: todo.compleated }">
       <input type="checkbox" v-on:change="todo.compleated = !todo.compleated" />
-      <strong>{{ todo.id }}</strong>
+      <strong>{{ index + 1 }}</strong>
       {{ todo.title }}
     </span>
     <button
@@ -22,6 +22,7 @@ export default {
       type: Object,
       required: true,
     },
+    index: Number,
   },
 };
 </script>
