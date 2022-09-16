@@ -4,6 +4,4 @@
     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio modi repellat
     accusamus sint fuga nam, veritatis facere qui dignissimos beatae.
   </p>
-
-  <a href="/todos">My todos</a>
 </template>

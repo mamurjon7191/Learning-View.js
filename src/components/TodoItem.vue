@@ -24,6 +24,7 @@ export default {
     },
     index: Number,
   },
+  computed: {},
 };
 </script>
 
